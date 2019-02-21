@@ -1,0 +1,47 @@
+#banner{
+    position: relative;
+    .imgul{
+        height: 364px;
+        overflow: hidden;
+        a{
+            display: block;
+            height: 100%;
+            img{
+                height: 100%;
+            }
+        }
+    }
+    #dotul{
+        position: absolute;
+        bottom: 23px;
+        left: 933px;
+        li{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #1B8EC7;
+            float: left;
+            margin-left: 10px;
+            &.active{
+                background-color: #00C3F1; 
+            }
+        }
+    }
+}
+
+
+
+.lunbo-enter {
+    transform: translateX(110%);
+}
+.lunbo-enter-active {
+    transition: all 1s ease;
+    transform: translateX(0);
+}
+.lunbo-exit {
+    transform: translateX(0);
+}
+.lunbo-exit-active {
+    transition: all 1s ease;
+    transform: translateX(-110%);
+}

@@ -1,0 +1,381 @@
+#mine{
+    background: #F5F5F5;
+    padding-bottom: 58px;
+    .mine{
+        >div{
+            background: #fff;
+            border: 1px solid #EEEEEE;
+        }
+        .mine_l{
+            width: 292px;
+            height: 386px;
+            margin-right: 16px;
+            >h2{
+                height: 38px;
+                border-bottom: 1px solid #DDD;
+                margin: 7px 19px 0 19px;
+                span{
+                    float: right;
+                    line-height: 38px;
+                    a{
+                        font-size: 12px;
+                        color: #828282;
+                        font-weight: normal;
+                    }
+                }
+                strong{
+                    float: left;
+                    line-height: 38px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-family: 微软雅黑;
+                    color: rgb(102, 102, 102);
+                }
+            }
+            .mine_l_children{
+                overflow:hidden;
+                padding:16px 19px 15px 19px;
+                .mine_sp{
+                    width:258px; 
+                    padding-bottom:20px; 
+                    border-bottom:1px solid #eee; 
+                    overflow:hidden;
+                    >div{
+                        width:258px;
+                        height:122px;
+                        position:relative;
+                        cursor: pointer;
+                        .shi_tu{
+                            position:absolute;
+                            left:93px;
+                            top:25px;
+                        }
+                    }
+                }
+                .mine_list{
+                    width:258px; 
+                    padding:14px 0 20px 0; 
+                    overflow:hidden;
+                    li{
+                        width:258px; 
+                        line-height:26px; 
+                        text-align:center; 
+                        font-size:12px; 
+                        font-family:微软雅黑; 
+                        float:left; 
+                        background:url(../images/minedian.gif) no-repeat 3px center;
+                        a{
+                            color:#a9a9a9; 
+                            padding-left:18px; 
+                            font-family:微软雅黑;
+                            float:left; 
+                            width:240px; 
+                            height:26px;
+                            text-align:left;
+                            &:hover{
+                                color:#24a9d8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mine_c{
+            width: 602px;
+            height: 386px;
+            margin-right: 20px;
+            .minec_top{
+                width:600px;
+                overflow:hidden;
+                .tabs{
+                    height: 37px;
+                    width: 228px;
+                    margin:15px 0 0 18px;
+                    float:left;
+                    display:inline;
+                    li{
+                        width:114px;
+                        height:36px;
+                        line-height:36px;
+                        float:left;
+                        overflow:hidden;
+                        position: relative;
+                        text-align:center; 
+                        border-bottom:1px solid #ccc;
+                        a{
+                            display:block;
+                            color:#000; 
+                            font-weight:bold; 
+                            text-decoration:none;
+                            width:114px;
+                            height:36px;
+                            font-size:14px; 
+                            font-family:微软雅黑;
+                            &.selected{
+                                color: rgb(255, 255, 255); 
+                                background: rgb(27, 142, 199);
+                            }
+                        }
+                        span{ 
+                            background:url(../images/minejt.png) no-repeat; 
+                            width:13px; 
+                            height:7px; 
+                            overflow:hidden; 
+                            position:absolute;
+                            left:50px;
+                            bottom:-1px; 
+                            display:none;
+                        }
+                    }
+                }
+                .jiahao{
+                    width: 334px;
+                    float: right; 
+                    border-bottom:1px solid #ccc;
+                    height: 36px; 
+                    margin-top: 15px;
+                    margin-right:20px;
+                    display:inline; 
+                    text-align:right; 
+                    display:none;
+                    a{ 
+                        line-height:36px;
+                        font-family:宋体; 
+                        font-size:12px; 
+                        color:#828282;
+                    }
+                }
+            }
+            .tb1{
+                width:600px;
+                display:none;
+                .portlet{
+                    .portlet_bottom{
+                        .zheng2{
+                            padding:0px 18px 30px 18px;
+                            width:564px;
+                            overflow:hidden;
+                            .zTop{
+                                width:564px;
+                                height:141px;
+                                float:left; 
+                                margin-top:20px;
+                                border-bottom:1px solid #ddd;
+                                overflow:hidden; 
+                                position:relative;
+                                ul{
+                                    width:564px;
+                                    height:141px;
+                                    li{
+                                        float:left;
+                                        width:564px;
+                                        height:125px;
+                                        display:none;
+                                        .zuo{
+                                            float:left;
+                                            width:155px;
+                                            height:125px;
+                                            overflow:hidden;
+                                            img{
+                                                width:164px;
+                                                height:121px;
+                                            }
+                                        }
+                                        .you{
+                                            float:right;
+                                            width:379px;
+                                            overflow:hidden; 
+                                            h2{
+                                                font-family:微软雅黑; 
+                                                font-size:15px; 
+                                                font-weight:bold;
+                                                line-height:25px;
+                                                a{
+                                                    font-family: 微软雅黑;
+                                                    font-size: 15px;
+                                                    font-weight: bold;
+                                                    line-height: 25px;
+                                                    color: #4a4a4a;
+                                                }
+                                            }
+                                            span{
+                                                font-size:12px;
+                                                color:#908f8f;
+                                                line-height:22px;
+                                                font-family:微软雅黑;
+                                            }
+                                            p{
+                                                font-size:12px; 
+                                                font-family:微软雅黑;
+                                                margin-top:10px;
+                                                line-height:22px;
+                                            }
+                                            a{
+                                                font-size:12px; 
+                                                font-weight:bold; 
+                                                line-height:24px;
+                                                color:#ffac1d;
+                                                &:hover{
+                                                    color:#24a9d8;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .zBottom
+                            {
+                                float:left;
+                                width:100%;
+                                margin-top:10px;
+                                p{
+                                    float:left;
+                                    width:100%;
+                                    line-height:26px; 
+                                    list-style:none; 
+                                    background:url(../images/minedian.gif) no-repeat 3px center;
+                                    a{
+                                        font-size:12px; 
+                                        font-family:微软雅黑;
+                                        color:#908f8f;
+                                        float:left;
+                                        padding-left:17px;
+                                        &:hover{
+                                            color:#24a9d8;
+                                        }
+                                    }
+                                    span{
+                                        font-size:12px; 
+                                        font-family:微软雅黑;
+                                        color:#908f8f;
+                                        float:right;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mine_r{
+            width: 250px;
+            height: 386px;
+            .miner_top{
+                float:left; 
+                margin:15px 17px 0 17px; 
+                width:214px;
+                display:inline; 
+                overflow:hidden;
+                .title{
+                    float:left;
+                    width:214px;
+                    line-height:36px;
+                    border-bottom:1px solid #ddd;
+                }
+                .jz_pilu{ 
+                    float:left;
+                    width:214px;
+                    margin-top:17px;
+                    height:30px;
+                    background:url(../images/minerbkg.gif) no-repeat;
+                }
+                .jz_piluL{
+                    float:left;
+                    width:102px;
+                    height:23px;
+                    text-align:center;
+                    line-height:23px;
+                    font-weight:bold;
+                    font-size:12px;
+                    color:#fff;
+                    font-family:微软雅黑;
+                    cursor:pointer;
+                }
+                .jz_piluR{
+                    float:left;
+                    width:102px;
+                    height:23px;
+                    text-align:center;
+                    line-height:23px;
+                    font-weight:bold;
+                    font-size:12px;
+                    color:#fff;
+                    font-family:微软雅黑;
+                    cursor:pointer;
+                    display:inline;
+                    margin-left:10px;
+                }
+                .act{
+                    background:url(../images/minrbkg2.png) no-repeat 1px 1px;
+                }
+            }
+            .tb2{
+                width:248px;
+                display:none;
+            }
+            .tb1{
+                .portlet{
+                    .portlet_bottom{
+                        .jz_yljcp{
+                            float: left;
+                            width:214px;
+                            overflow:hidden;
+                            margin:0 17px;
+                            .jz_yljcpT{
+                                float: left;
+                                padding-bottom:9px;
+                                width:214px;
+                                height:22px;
+                                line-height:22px;
+                                background:url(../images/minerbd.gif) repeat-x bottom;
+                                strong{
+                                    float: left;
+                                    font-size:12px;
+                                    color:#7d7d7d;
+                                    font-family:微软雅黑;
+                                }
+                            }
+                            .jzpl_ul{
+                                float: left;
+                                padding:6px 0 13px 0;
+                                width:214px;
+                                overflow:hidden;
+                                border-bottom:1px solid #dddddd;
+                                li{
+                                    float: left;
+                                    width:214px;
+                                    height:30px;
+                                    line-height:30px;
+                                    span{
+                                        float: left;
+                                        font-size:12px;
+                                        color:#7d7d7d;
+                                        font-family:微软雅黑;
+                                    }
+                                    em{
+                                        float: left;
+                                        padding:13px 0;
+                                        width:24px;
+                                        height:4px;
+                                        overflow:hidden;
+                                    }
+                                }
+                            }
+                            .jz_yljcpB{
+                                float: left;
+                                font-size:12px;
+                                color:#aaa;
+                                font-family:微软雅黑;
+                                width:214px;
+                                height:55px;
+                                line-height:30px;
+                                text-align:center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

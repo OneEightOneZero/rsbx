@@ -1,0 +1,13 @@
+.ant-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+.ant-input-affix-wrapper{
+    width: 260px;
+}
+.ant-btn-primary{
+    width: 260px;
+    display: block;
+}

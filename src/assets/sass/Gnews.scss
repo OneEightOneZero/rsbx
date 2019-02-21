@@ -1,0 +1,92 @@
+#news{
+    background: #F5F5F5;
+    padding-bottom: 18px;
+    .news{
+        position: relative;
+        .news_l{
+            width: 912px;
+            height: 114px;
+            background: #fff;
+            position: relative;
+            .news_l_l{
+                position: absolute;
+                width: 28px;
+                height: 55px;
+                cursor: pointer;
+                left: 18px;
+                top: 29px;
+                background: url(../images/newsjt1.gif) no-repeat;
+                &.you{
+                    background: url(../images/newsjt2.gif) no-repeat;
+                }
+            }
+            .news_l_c{
+                position: absolute;
+                width: 787px;
+                left: 61px;
+                top: 16px;
+                overflow: hidden;
+                border: 1px solid #EEEEEE;
+                ul{
+                    height: 82px;
+                    width: 1890px;
+                    white-space: nowrap;
+                    li{
+                        float: left;
+                        margin-right: 23px;
+                        a{
+                            width: 247px;
+                            height: 82px;
+                            display: block;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .news_l_r{
+                position: absolute;
+                width: 28px;
+                height: 55px;
+                cursor: pointer;
+                right: 18px;
+                top: 29px;
+                background: url(../images/newsjt4.gif) no-repeat;
+                &.wu{
+                    background: url(../images/newsjt3.png) no-repeat;
+                }
+            }
+        }
+        .news_r{
+            position: absolute;
+            right: 0px;
+            width: 250px;
+            height: 114px;
+            padding-top: 23px;
+            padding-left: 27px;
+            border: 1px solid #EEEEEE;
+            background: #fff;
+            >div{
+                float: left;
+                width: 42px;
+                height: 79px;
+                margin-right: 24px;
+                a{
+                    display: block;
+                    width: 49px;
+                    height: 49px;
+                    span{
+                        display: block;
+                        width: 100%;
+                        font-size: 10px;
+                        text-align: center;
+                        color: #919191;
+                        padding-top: 6px;
+                    }
+                }
+            }
+        }
+    }
+}

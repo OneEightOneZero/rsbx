@@ -1,0 +1,140 @@
+#nav{
+    background: url(../images/navbkg.png) repeat-x;
+    nav>ul{
+        height: 43px;
+        float: left;
+        >li{
+            float: left;
+            padding: 0 48px;
+            font-size: 14px;
+            line-height: 43px;
+            position: relative;
+            >a{
+                color:#fff;
+                font-weight: bold;
+            }
+            &:hover{
+                background: url(../images/nav_hover.gif) repeat-x;
+            }
+            &:hover .ejcd{
+                display: block;
+            }
+            .ejcd{
+                display: none;
+                width: 492px; 
+                height: 182px; 
+                left: -170px; 
+                top: -200px;
+                background: #f2f2f2;
+                padding: 22px 30px 18px 30px;
+                position: absolute;
+                border: 1px solid #29a4e1;
+                z-index: 10;;
+                .ejcdL{
+                    width:308px;
+                    height:100%;
+                    float: left;
+                    border-right: 1px dashed #aaa;
+                    .ejcdL_cp{
+                        float: left;
+                        width: 155px;
+                        height: 100%;
+                    }
+                    .ejcdL_fw{
+                        float: left;
+                        width: 152px;
+                        height: 100%;
+                    }
+                    h2{
+                        float: left;
+                        font-size: 16px;
+                        color: #0d9bff;
+                        font-family: 微软雅黑;
+                        height: 20px;
+                        line-height: 20px;
+                        padding-left: 15px;
+                        margin-bottom: 8px;
+                    }
+                    span{
+                        float: left;
+                        width: 100%;
+                        height: 28px;
+                        a{
+                            float: left;
+                            padding: 0;
+                            padding-left: 15px;
+                            line-height: 28px;
+                            font-size: 12px;
+                            font-family: 微软雅黑;
+                            color: #8c8c8c;
+                            font-weight: normal;
+                            background: url(../images/minedian.gif) no-repeat 0 center;
+                            &:hover{
+                                color: #24a9d8;
+                            }
+                        }
+                    }
+                }
+                .ejcdR{
+                    width:122px;
+                    height:100%;
+                    float: left;
+                    .ejcdR_div{
+                        float: left;
+                        width: 100%;
+                        height: 100%;
+                        >div{
+                            float: left;
+                            padding-left: 25px;
+                            width: 122px;
+                            height: 35px;
+                            >a{
+                                float: left;
+                                width:25px;
+                                height:25px;
+                                img{
+                                    width: 25px;
+                                    height: 25px;
+                                }
+                            }
+                            span{
+                                float: left;
+                                width: 60px;
+                                height: 35px;
+                                padding-left: 12px;
+                                a{
+                                    float: left;
+                                    width: 60px;
+                                    height: 35px;
+                                    padding: 0;
+                                    font-size: 14px;
+                                    color: #8c8c8c;
+                                    line-height: 35px;
+                                    font-family: 微软雅黑;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #search{
+        float: right;
+        margin-right: 1px;
+        margin-top: 4px;
+        input{
+            &:first-child{
+                width: 34px;
+                height:34px;
+                background: url(../images/search.png) no-repeat #fff;
+            }
+            &:last-child{
+                width: 216px;
+                height: 34px;
+                font-family: 微软雅黑;
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+#header{
+    background: url(../images/headerbd.png) no-repeat 0px 0px;
+    header{
+        height:90px;
+        .header_top{
+           ul{
+                float:right;
+                padding-top: 5px;
+                li{
+                    float:left;
+                    a{
+                        color: #888888;
+                        padding: 0 10px;
+                        border-right: 1px solid #888888;
+                        font-family: 微软雅黑;
+                        font-size:12px; 
+                    }
+                    &:last-child a{
+                        border-right:none;  
+                    }
+                }
+            }
+
+        } 
+        .header_bottom{
+            h1{
+                margin-left: 86px;
+                float: left;
+                a{
+                    text-indent: -9999em;
+                    display: block;
+                    width: 429px;
+                    height: 54px;
+                    background:url(../images/logo.png) no-repeat 0px 0px;
+                } 
+            }
+            .kf{
+                float: right;
+                margin-right: 137px;
+            }
+        }
+    }
+}
