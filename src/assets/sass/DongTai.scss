@@ -1,0 +1,32 @@
+#dongtai{
+    background: #F5F5F5;
+    padding-bottom: 40px;
+    .dongtai{
+        .dongtai_l{
+            width: 250px;
+            >div{
+                img{
+                    width: 100%;
+                }
+            }
+            ul{
+                margin-bottom: 15px;
+                background: #fff;
+                li{
+                    a{
+                        color: #666;
+                        display: block;
+                        font-size: 14px;
+                        line-height: 40px;
+                        padding-left: 35px;
+                        background: url(../images/dongtailistjt2.png) no-repeat right center;
+                        &.active{
+                            color: #fff;
+                            background: url(../images/dongtailistjt.gif) no-repeat right center rgb(54, 206, 149);;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

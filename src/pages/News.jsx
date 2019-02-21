@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 import Gheader from '../components/Gheader.jsx';
 import Gnav from '../components/Gnav.jsx';
@@ -15,33 +16,26 @@ const News = class News extends Component {
                 </div>
                 <Gnav />
                 <div id="article">
-                    <div className="clearfix con">
-                        <div class="dqwz">
+                    <div className="clearfix con article">
+                        <div className="dqwz">
                             您当前所在位置：
-                            <span><a class="SkinObject" href="/rsbx/496620/index.html">首页</a>&nbsp;&gt;&nbsp;<a class="SkinObject" href="/rsbx/504626/506729/index.html">公司动态</a>&nbsp;&gt;&nbsp;<a class="SkinObject" href="/rsbx/504626/506729/index.html">公司新闻</a></span>
+                            <span><Link to="/">首页</Link>&nbsp;&gt;&nbsp;<Link to="/dongtai">公司动态</Link>&nbsp;&gt;&nbsp;<a className="SkinObject" href="javascript:;">公司新闻</a></span>
                         </div>
                         <div className="zhengwen">
-                            <table class="normal" cellpadding="0" cellspacing="0" border="0">
+                            <table className="normal" cellPadding="0" cellSpacing="0" border="0">
                                 <tbody>
                                     <tr>
-                                        <td colspan="2" align="center"> <h1>中国人寿保险（集团）公司党委书记、董事长王滨新春致辞</h1> </td>
+                                        <td colSpan="2" align="center"> <h1>中国人寿保险（集团）公司党委书记、董事长王滨新春致辞</h1> </td>
                                     </tr>
                                     <tr>
-                                        <td style={{'height': '30px','lineHeight':'30px'}} align="" width="60%"> <span style={{'fontFamily':'微软雅黑','paddingLeft':'114px','fontSize':'12px','width':'870px','float':'left','textAlign':'center'}}>信息来源：系统管理员 　　发布时间：2019年02月01日</span>
-                                            <div class="jiathis_style">
-                                                <span class="jiathis_txt">分享</span>
-                                                <a class="jiathis_button_tqq"></a>
-                                                <a class="jiathis_button_qzone"></a>
-                                                <a class="jiathis_button_tsina"></a>
-                                                <a class="jiathis_button_weixin"></a>
-                                            </div>
+                                        <td style={{'height': '30px','lineHeight':'30px'}} align="center" width="60%"> <span style={{'fontFamily':'微软雅黑','paddingLeft':'114px','fontSize':'12px','width':'984px','float':'left','textAlign':'center'}}>信息来源：系统管理员 　　发布时间：2019年02月01日</span>
                                             <div style={{'borderBottom':'rgb(204,204,204) 1px  dashed','height':'11px','overflow':'hidden','width':'1098px'}}></div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2" class="conzt">
-                                            <div id="fontsize1" class="xilan_con">
-                                                <p><img src="" /></p>
+                                        <td colSpan="2" className="conzt">
+                                            <div id="fontsize1" className="xilan_con">
+                                                <p><img src={require('../assets/images/News1.jpg')} /></p>
                                                 <p align="left">　　又是一年春光好！</p>
                                                 <p align="left">　　在中国人最牵挂的农历新春佳节即将到来之际，我谨代表中国人寿向长期关心支持我们事业发展的各位领导、各界朋友和新老客户表示衷心的感谢，送上真切的祝福！向为中国人寿发展作出贡献的各位同志致以诚挚的慰问！祝大家在新的一年里，身体健康、工作顺利、家庭幸福、万事如意！</p>
                                                 <p align="left">　　过去的一年，我们深入贯彻习近平新时代中国特色社会主义思想，精神昂扬、奋发进取，战胜了复杂严峻形势带来的挑战，在高质量发展道路上迈出了坚实步伐。</p>
@@ -55,17 +49,6 @@ const News = class News extends Component {
                                                 <p align="left">　　当前，世界正面临百年未有之大变局，国家正处在重要战略机遇期，中国人寿则更应革故鼎新、踵事增华，方不负我们的使命与担当。</p>
                                                 <p>　　面向未来，让我们更加紧密地团结在以习近平总书记为核心的党中央周围，高举信仰、信念、信心的旗帜，用奋斗寻找答案、用激情点燃梦想，凝聚百万国寿将士的磅礴力量，团结一致加油干，重振国寿再出发！</p>
                                             </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2" align="right">
-                                            <table class="normal" cellpadding="0" cellspacing="0" border="0" width="100%">
-                                                <tbody>
-                                                    <tr>
-                                                        <td colspan="2" style={{'width': '180px'}} align="center"></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
                                         </td>
                                     </tr>
                                 </tbody>
