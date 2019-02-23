@@ -13,13 +13,19 @@ import DongTai from './src/pages/DongTai.jsx';
 import News from './src/pages/News.jsx';
 
 let store = createStore((state = {
-    newsTitle: '公司新闻'
+    newsTitle: '公司新闻',
+    show: false,
 }, action) => {
     switch (action.type) {
         case 'setNewsTitle':
             return {
                 ...state,
                 newsTitle: action.newsTitle
+            };
+        case 'setShow':
+            return {
+                ...state,
+                show: action.show
             };
         default:
             return state;

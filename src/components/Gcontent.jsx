@@ -58,8 +58,8 @@ const Gcontent = class Gcontent extends Component {
     }
 }
 export default connect(
-    (state) => {
-        return state;
-    }, (dispatch) => {
-        return {};
-    })(Gcontent);
+    state => state,
+    dispatch => {
+        return {}
+    }
+)(Gcontent);

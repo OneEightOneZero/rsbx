@@ -1,18 +1,39 @@
 import React from 'react';
+import axios from 'axios';
 import {
     Form, Icon, Input, Button, Checkbox,
 } from 'antd';
 import './Login.css';
 class LogIn extends React.Component {
+    constructor(props) {
+        super(props);
+        this.props = props;
+    }
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
             if (!err) {
                 console.log('Received values of form: ', values);
+                this.findUser(values);
             }
         });
     }
-
+    findUser(loginInfo) {
+        axios({
+            url: 'http://localhost:7001/login',
+            method: 'post',
+            data: {
+                phone: loginInfo.userName,
+                password: loginInfo.password,
+            },
+        }).then((data) => {
+            if(data.data.status){
+                window.location.href = "/";
+            }else{
+                window.alert('用户名或密码错误');
+            }
+        })
+    }
     render() {
         const { getFieldDecorator } = this.props.form;
         return (

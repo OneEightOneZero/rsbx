@@ -64,13 +64,14 @@ const DongTai = class DongTai extends Component {
     }
 }
 export default connect(
-    (state) => {
-        return {state};
-    }, (dispatch) => {
+    state => {
+        return { state }
+    },
+    dispatch => {
         return {
-            setNewsTitle(newsTitle){
+            setNewsTitle(newsTitle) {
                 dispatch({
-                    type:'setNewsTitle',
+                    type: 'setNewsTitle',
                     newsTitle
                 })
             }
